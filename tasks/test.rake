@@ -16,7 +16,6 @@
 #
 
 rule 'test/CouchbaseMock.jar' do |task|
-  STDOUT.puts("TRAVIS" *  80)
   jar_path = "0.6-SNAPSHOT/CouchbaseMock-0.6-20130903.160518-3.jar"
   sh %{wget -q -O test/CouchbaseMock.jar http://files.couchbase.com/maven2/org/couchbase/mock/CouchbaseMock/#{jar_path}}
 end
