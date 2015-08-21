@@ -1,3 +1,4 @@
+sudo: false
 notifications:
   email:
     - mike@urlgonomics.com
